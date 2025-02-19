@@ -41,6 +41,10 @@ app.post('/api/select', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
+app.get("/", (req, res) => {
+    res.send("Welcome to the This Machine Trends League API! Visit /api/trends to see available trends.");
+});
+
 app.listen(PORT, () => {
   console.log(`Beta trends league backend running on port ${PORT}`);
 });
