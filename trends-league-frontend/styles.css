@@ -1,0 +1,21 @@
+.trend-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 2px solid #007BFF;
+    background: white;
+    color: #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.trend-button:hover {
+    background: #007BFF;
+    color: white;
+}
+
+.trend-button.selected {
+    background: #007BFF;
+    color: white;
+    border-color: #0056b3;
+}
